@@ -18,6 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/aiocr', 'AiocrController@index')->name('aiocr');
 
 
 // Authentication Route
